@@ -1,7 +1,7 @@
-import 'package:cookingrecipe/AllRecipie.dart';
-import 'package:cookingrecipe/Categories.dart';
-import 'package:cookingrecipe/SignIn.dart';
-import 'package:cookingrecipe/Today.dart';
+import 'package:cookingrecipe/ui/screen/AllRecipie.dart';
+import 'package:cookingrecipe/ui/screen/Categories.dart';
+import 'package:cookingrecipe/ui/screen/SignIn.dart';
+import 'package:cookingrecipe/ui/screen/Today.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';

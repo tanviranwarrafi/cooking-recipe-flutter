@@ -1,6 +1,6 @@
-import 'package:cookingrecipe/Ingredients.dart';
-import 'package:cookingrecipe/Preparations.dart';
-import 'package:cookingrecipe/Reviews.dart';
+import 'package:cookingrecipe/ui/screen/Ingredients.dart';
+import 'package:cookingrecipe/ui/screen/Preparations.dart';
+import 'package:cookingrecipe/ui/screen/Reviews.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';

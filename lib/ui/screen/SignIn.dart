@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'dart:io';
-import 'package:cookingrecipe/Animation/FadeAnimation.dart';
-import 'package:cookingrecipe/LandingPage.dart';
+import 'package:cookingrecipe/ui/shared/Animation/FadeAnimation.dart';
+import 'package:cookingrecipe/ui/screen/LandingPage.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:hexcolor/hexcolor.dart';

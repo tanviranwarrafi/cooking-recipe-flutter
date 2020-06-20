@@ -1,5 +1,5 @@
-import 'package:cookingrecipe/LandingPage.dart';
-import 'package:cookingrecipe/SignIn.dart';
+import 'package:cookingrecipe/ui/screen/LandingPage.dart';
+import 'package:cookingrecipe/ui/screen/SignIn.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
