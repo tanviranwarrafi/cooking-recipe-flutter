@@ -1,4 +1,4 @@
-# cookingrecipe
+# Cooking Recipe App
 
 A new Flutter application.
 
