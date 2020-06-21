@@ -26,10 +26,11 @@ class _SignInPageState extends State<SignInPage> {
         await http.post("https://rcapp.utech.dev/api/auth/login", body: data);
     if (response.statusCode == 200) {
       jsonResponse = json.decode(response.body);
+      print(jsonResponse);
 
       if (jsonResponse != null) {
         sharedPreferences.setString("token", jsonResponse['result']["token"]);
-
+        print(jsonResponse['result']["token"]);
         String token = "Bearer " + jsonResponse['result']["token"];
 
         var userResponse = await http.get("https://rcapp.utech.dev/api/user",
@@ -65,6 +66,7 @@ class _SignInPageState extends State<SignInPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      resizeToAvoidBottomInset: true,
       resizeToAvoidBottomPadding: false,
       backgroundColor: Colors.white,
       body: SingleChildScrollView(
@@ -202,8 +204,16 @@ class _SignInPageState extends State<SignInPage> {
                       2,
                       GestureDetector(
                         onTap: () async {
-                          await signIn(
-                              emailController.text, passwordController.text);
+                          if (emailController.text == "" ||
+                              passwordController.text == "") {
+                            Fluttertoast.showToast(
+                                msg: "enter email and password",
+                                toastLength: Toast.LENGTH_SHORT,
+                                fontSize: 16.0);
+                          } else {
+                            await signIn(
+                                emailController.text, passwordController.text);
+                          }
                         },
                         child: Container(
                           height: 50,
