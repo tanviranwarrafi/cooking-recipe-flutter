@@ -11,6 +11,6 @@ Simple cooking recipe app which is developed by flutter. This app has a login sc
 
 ### Screenshots
 
-<img src="screenshots/login.jpg" width="200"> &nbsp;&nbsp;&nbsp;&nbsp; <img src="screenshots/landing_page.jpg" width="200"> &nbsp;&nbsp;&nbsp;&nbsp; <img src="screenshots/user.jpg" width="200"> &nbsp;&nbsp;&nbsp;&nbsp; <img src="screenshots/details.jpg" width="200">  
+<img src="screenshots/login.jpg" width="190"> &nbsp;&nbsp;&nbsp;&nbsp; <img src="screenshots/landing_page.jpg" width="190"> &nbsp;&nbsp;&nbsp;&nbsp; <img src="screenshots/user.jpg" width="190"> &nbsp;&nbsp;&nbsp;&nbsp; <img src="screenshots/details.jpg" width="190">  
 
 <img src="screenshots/ingredients.jpg" width="200"> &nbsp;&nbsp;&nbsp;&nbsp; <img src="screenshots/preparations.jpg" width="200"> &nbsp;&nbsp;&nbsp;&nbsp; <img src="screenshots/review.jpg" width="200"> &nbsp;&nbsp;&nbsp;&nbsp; <img src="screenshots/today.jpg" width="200">
